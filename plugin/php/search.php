@@ -7,8 +7,7 @@
 		<div class="container theme-showcase" role="main">	
 			<div class="page-header">
 			<center><h1>Pagina de busca</h1></center>						
-		</div>	
-							
+		</div>								
 		<div class="row">
 			<div class="col-md-12">
 			</div>
