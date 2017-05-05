@@ -1,7 +1,6 @@
 	<!--Conecta ao BD -->
 	<?php include("conecta.php") ?>
 
-
 	<!--Inclui a Herança layout (Toolbar bootstrap com efeitos navbar+carrosel)-->
 	<?php include("layout.php") ?>
 
@@ -21,7 +20,6 @@
 		<br/>
 
 	<?php
-
 		//Criação das variaveis
 		$cod_Mercadoria= "(cod_Mercadoria_seq.nextval)";
 		$tipo_mercadoria=$_POST['tipo_mercadoria'];
@@ -29,7 +27,6 @@
 		$qtd=$_POST['quantidade'];
 		$preco=$_POST['preco'];
 		$tipo_negocio=$_POST['inputOptions'];;
-
 
 		//Inserindo valores no banco de dados
 			if($tipo_negocio==1){
