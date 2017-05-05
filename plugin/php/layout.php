@@ -84,15 +84,13 @@
 			
 			<div class="carousel-inner" role="listbox">
 				<div class="item active">
-					<img class="first-slide" src="/valemobi/plugin/img/slide1.jpg" alt="First slide">					
+				<img class="first-slide" src="/valemobi/plugin/img/slide1.jpg" alt="First slide">					
 				</div>
-				
 				<div class="item">
-					<img class="second-slide" src="/valemobi/plugin/img/slide2.jpg" alt="Second slide">					
+				<img class="second-slide" src="/valemobi/plugin/img/slide2.jpg" alt="Second slide">					
 				</div>
-				
 				<div class="item">
-					 <img class="third-slide" src="/valemobi/plugin/img/slide3.jpg" alt="Third slide">					
+				<img class="third-slide" src="/valemobi/plugin/img/slide3.jpg" alt="Third slide">					
 				</div>				
 			</div>	
 		
