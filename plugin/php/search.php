@@ -33,14 +33,14 @@
 					
 			while($row = oci_fetch_assoc($resultado)):	//oci_fetch_assoc() equivale ao mysql_fetch_assoc()
 				echo	//Imprimi os dados do produto que foi cadastrado
-					"<h4><ul><strong>ID de Protocolo gerado: </strong>" 				. $row['id'] . 
-					"<br/><br/><strong>Tipo de Mercadoria: </strong>"   				. $row['tipo'] . 
-					"<br/><br/><strong>Nome do produto: </strong>" 					. $row['nome'] . 
-					"<br/><br/><strong>Quantidade de produtos: </strong>" 				. $row['qtd'] . 
-					"<br/><br/><strong>O valor do produto anunciado em reis é: </strong>" 		. $row['preco'] . 
-					"<br/><br/><strong>Você optou por fazer uma: </strong>" 			. $row['negocio'] . 
+					"<h4><ul><strong>ID de Protocolo gerado: </strong>" 			. $row['id'] . 
+					"<br/><br/><strong>Tipo de Mercadoria: </strong>"   			. $row['tipo'] . 
+					"<br/><br/><strong>Nome do produto: </strong>" 				. $row['nome'] . 
+					"<br/><br/><strong>Quantidade de produtos: </strong>" 			. $row['qtd'] . 
+					"<br/><br/><strong>O valor do produto anunciado em reis é: </strong>" 	. $row['preco'] . 
+					"<br/><br/><strong>Você optou por fazer uma: </strong>" 		. $row['negocio'] . 
 					"</br>";
-				 endwhile;
+			endwhile;
 													
 		?>	
 			
