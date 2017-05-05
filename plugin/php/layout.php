@@ -1,78 +1,72 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	
 		<meta charset="utf-8">
 		<title>Projeto Web Valemobi</title>
-	
-					
-				<!-- CSS Bootstrap min -->
-				<link href="/valemobi/plugin/Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+			
+			<!-- CSS Bootstrap min -->
+			<link href="/valemobi/plugin/Bootstrap/css/bootstrap.min.css" rel="stylesheet">
 				
-				<!-- CSS Bootstrap -->
-				<link href="/valemobi/plugin/Bootstrap/css/bootstrap.css" rel="stylesheet">
+			<!-- CSS Bootstrap -->
+			<link href="/valemobi/plugin/Bootstrap/css/bootstrap.css" rel="stylesheet">
 				
-				<!--Jquery -->
-				<script type="text/javascript" src="/valemobi/plugin/js/jquery-3.2.1.js"> </script>
+			<!--Jquery -->
+			<script type="text/javascript" src="/valemobi/plugin/js/jquery-3.2.1.js"> </script>
 								
-				<!--JavaScript Bootstrap -->
-				<script type="text/javascript" src="/valemobi/plugin/Bootstrap/js/bootstrap.js"> </script> 
+			<!--JavaScript Bootstrap -->
+			<script type="text/javascript" src="/valemobi/plugin/Bootstrap/js/bootstrap.js"> </script> 
 				
-				<!--Bootstrap Min-->
-				<script type="text/javascript" src="/valemobi/plugin/Bootstrap/js/bootstrap.min.js"> </script>
+			<!--Bootstrap Min-->
+			<script type="text/javascript" src="/valemobi/plugin/Bootstrap/js/bootstrap.min.js"> </script>
 				
-				<!--CARROSEL CSS-->
-				<link href="/valemobi/plugin/Bootstrap/css/carousel.css" rel="stylesheet">
+			<!--CARROSEL CSS-->
+			<link href="/valemobi/plugin/Bootstrap/css/carousel.css" rel="stylesheet">
 												
-				
-				<!--IMAGEM DE CABEÇALHO PNG---->
-				<link rel="icon" href="/valemobi/plugin/img/icon.ico">
+			<!--IMAGEM DE CABEÇALHO PNG---->
+			<link rel="icon" href="/valemobi/plugin/img/icon.ico">
 	
 	</head>
 
 <body>
 
-<!-------------------------COMEÇO MENU (TALBAR FIXED) BLACK--------->
+	<!-------------------  COMEÇO MENU (TOOLBAR FIXED) ---------------->
 
 		<nav class="navbar navbar-inverse navbar-fixed-top">
 			<div class="container">
-			
 				<div class="navbar-header">		
 					<button type="button" class="navbar-toggle collapsed"
 					data-toggle="collapse" data-target="#navbar"
 					aria-expanded="false" aria-controls="navbar">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
 					</button>					
 					<a class="navbar-brand" href="https://br.linkedin.com/in/richard-henrique-451a8979">RICHARD</a>
 				</div>
 				
 				<div id="navbar" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav">
-						<li><a href="index.php">Cadastrar Produto</a></li>
+					<li><a href="index.php">Cadastrar Produto</a></li>
 					</ul>
 					
 					<ul  class="nav navbar-nav" style="float: right">
-						<li class="pull-right">					
-							<form method="post" action="search.php" class="navbar-form">
-							
-								<div class="input-group"> 
-									<input type="number" min="1" required name="busca" class="form-control"
-									placeholder="ID de protocolo">
-									</input>								
-								<div class="input-group-btn">								
-									<button class="btn btn-default" type="submit" required="">
-									<i class="glyphicon glyphicon-search"></i>
-									</button>
-								</div>									
-								</div>
-								
-							</form> 							
-						</li>						
+					<li class="pull-right">					
+						<form method="post" action="search.php" class="navbar-form">
+						<div class="input-group"> 
+							<input type="number" min="1" required name="busca" class="form-control"
+							placeholder="ID de protocolo">
+							</input>								
+							<div class="input-group-btn">								
+							<button class="btn btn-default" type="submit" required="">
+							<i class="glyphicon glyphicon-search"></i>
+							</button>
+							</div>									
+						</div>								
+						</form> 							
+					</li>						
 					</ul>	
-				</div>				
+				</div>			
 			</div>			
 		</nav>
 
@@ -112,5 +106,5 @@
 				<span class="sr-only">Next</span>
 			</a>
 			
-		</div><!-- Fim Carrosel -->
+		</div>	<!-- Fim Carrosel -->
 		
