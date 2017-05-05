@@ -72,6 +72,6 @@
 				
 	<!--Finaliza os campos do Formulario-->		   
 		   
-  </body>
+	</body>
 
 </html>
