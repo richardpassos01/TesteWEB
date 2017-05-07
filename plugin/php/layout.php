@@ -7,18 +7,12 @@
 			<!-- CSS Bootstrap min -->
 			<link href="/valemobi/plugin/Bootstrap/css/bootstrap.min.css" rel="stylesheet">
 				
-			<!-- CSS Bootstrap -->
-			<link href="/valemobi/plugin/Bootstrap/css/bootstrap.css" rel="stylesheet">
-				
 			<!--Jquery -->
 			<script type="text/javascript" src="/valemobi/plugin/js/jquery-3.2.1.js"> </script>
 								
 			<!--JavaScript Bootstrap -->
 			<script type="text/javascript" src="/valemobi/plugin/Bootstrap/js/bootstrap.js"> </script> 
-				
-			<!--Bootstrap Min-->
-			<script type="text/javascript" src="/valemobi/plugin/Bootstrap/js/bootstrap.min.js"> </script>
-				
+			
 			<!--CARROSEL CSS-->
 			<link href="/valemobi/plugin/Bootstrap/css/carousel.css" rel="stylesheet">
 												
@@ -51,10 +45,10 @@
 					</ul>
 					
 					<ul  class="nav navbar-nav" style="float: right">
-					<li class="pull-right">					
+						<li class="pull-right">					
 						<form method="post" action="search.php" class="navbar-form">
-						<div class="input-group"> 
-							<input type="number" min="1" required name="busca" class="form-control"
+							<div class="input-group"> 
+							<input type="number" min="0" required name="busca" class="form-control"
 							placeholder="ID de protocolo">
 							</input>								
 							<div class="input-group-btn">								
@@ -62,16 +56,15 @@
 							<i class="glyphicon glyphicon-search"></i>
 							</button>
 							</div>									
-						</div>								
+							</div>								
 						</form> 							
-					</li>						
+						</li>						
 					</ul>	
 				</div>			
 			</div>			
 		</nav>
 
 <!----------------------------COMEÇO CARROSSEL DE IMAGENS ------------------>
-
 		
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
 		
