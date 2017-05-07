@@ -44,7 +44,7 @@
 		<div class="form-group">
 			<label for="inputPrice" class="col-sm-4 control-label">Preço</label>
 			<div class="col-sm-5">
-			<input type="number" class="form-control" min="1"  step=0.01 name="preco" 
+			<input type="number" required="" class="form-control" min="1"  step=0.01 name="preco" 
 			       placeholder="Qual o preço do produto?" aria-describedby="basic-addon1">
 			</div>			
 		</div>				  
