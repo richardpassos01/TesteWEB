@@ -64,7 +64,7 @@
 			</div>			
 		</nav>
 
-<!------------------- Carrosel de imagens ------------------->
+	<!------------------- Carrosel de imagens ------------------->
 		
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
 		
