@@ -23,7 +23,7 @@
 
 <body>
 
-	<!-------------------  COMEÇO MENU (TOOLBAR FIXED) ---------------->
+	<!-------------------  Menu Toobar Fixed ------------------->
 
 		<nav class="navbar navbar-inverse navbar-fixed-top">
 			<div class="container">
@@ -64,7 +64,7 @@
 			</div>			
 		</nav>
 
-<!----------------------------COMEÇO CARROSSEL DE IMAGENS ------------------>
+<!------------------- Carrosel de imagens ------------------->
 		
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
 		
@@ -97,5 +97,4 @@
 				<span class="sr-only">Next</span>
 			</a>
 			
-		</div>	<!-- Fim Carrosel -->
-		
+</div> <!-- Fim Carrosel -->
