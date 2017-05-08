@@ -15,6 +15,9 @@
 			
 			<!--CARROSEL CSS-->
 			<link href="/valemobi/plugin/Bootstrap/css/carousel.css" rel="stylesheet">
+		
+			<!--JavaScript de validações -->
+			<script type="text/javascript" src="/valemobi/plugin/js/validacao.js"></script>
 												
 			<!--IMAGEM DE CABEÇALHO PNG---->
 			<link rel="icon" href="/valemobi/plugin/img/icon.ico">
