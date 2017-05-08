@@ -6,7 +6,7 @@
 
 		<div class="container theme-showcase" role="main">		
 		<div class="page-header">
-			<script type="text/javascript">alert("Produto Cadastrado com sucesso!")</script>
+			<script>confirma()</script>
 		</div>	
 		<div class="page-header">
 			<center><h4>Segue dados do produto cadastrado em nosso sistema</h4></center>
