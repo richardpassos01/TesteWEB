@@ -61,7 +61,7 @@
 				  
 		<div class="form-group">
 			<div class="col-sm-offset-4 col-sm-5">
-			<button type="submit" class="btn btn-default">Avançar</button>
+			<button type="submit" class="btn btn-default" onClick="return validar()">Avançar</button>
 			<input type="reset" class="btn btn-default">
 			</div>  
 		</div>
