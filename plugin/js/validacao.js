@@ -2,6 +2,9 @@ function confirma(){
 alert("Produto Cadastrado com sucesso!");
 }
 
+function nao_encontrado(){
+alert("Produto não encontrado");	
+}
 
 function validar() {
 
