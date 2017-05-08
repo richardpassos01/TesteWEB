@@ -22,16 +22,13 @@ if(document.FormularioLogin.nome_mercadoria.value==""){
 
 if(document.FormularioLogin.quantidade.value.length < 1){
 	alert('A quantidade não pode ser menor do que 1');
-		FormularioLogin.quantidade.focus();
+	FormularioLogin.quantidade.focus();
 	return false;
 }
 
 if(document.FormularioLogin.preco.value.length < 1){
 	alert('O preço não pode ser 0');
-		FormularioLogin.preco.focus();
+	FormularioLogin.preco.focus();
 	return false;
 }
-
-
-
 }
