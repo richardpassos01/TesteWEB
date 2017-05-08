@@ -35,7 +35,7 @@
 			}
 
 				else{ 		//Imprimi alert abaixo se o ID for invalido
-				echo'<script type="text/javascript"> alert("Produto não encontrado")</script>';
+				echo'<script>nao_encontrado()</script>';
 					
 				echo"<strong>Não encontramos em nosso banco o produto de ID: ". $_POST['busca']."</strong>
 				<br/><h6>Por gentileza verificar se o numero de protocolo gerado está correto.<br/></br>
